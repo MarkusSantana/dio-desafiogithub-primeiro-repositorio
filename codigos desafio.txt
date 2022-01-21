@@ -1,0 +1,26 @@
+const obj = {
+
+    temComorbidade: true,
+    jaTomouVacina: false
+  }
+
+   if (obj.idade >= 60) {
+       if (obj.temComorbidade = "false") {
+           if (obj.jaTomouVacina = "true") {
+               console.log ("JA TOMOU VACINA")     
+           }
+       }
+   } else if (obj.idade < 60) {
+             if (obj.temComorbidade = "false") {
+                if (obj.jaTomouVacina = "false") {
+                    console.log ("INAPTA")
+           } 
+       }
+   } else if (obj.idade >= 60) {
+              if (obj.temComorbidade = "true") {
+                 if (obj.jaTomouVacina = "false") {
+                    console.log ("APTA POR IDADE") 
+           } 
+       }              
+   }                
+                         
